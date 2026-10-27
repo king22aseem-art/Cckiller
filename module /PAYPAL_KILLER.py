@@ -16,8 +16,8 @@ cvv_real    = input("Enter CVV: ")
 zip_real    = input("Enter ZIP Code: ")
 
 # ========== PAYPAL API SETUP ==========
-client_id = "YOUR_PAYPAL_CLIENT_ID"
-secret    = "YOUR_PAYPAL_SECRET"
+client_id = "BAAnHK8zEzkmRpFFDpMpMriH35bAER5pwAMLlwDu8_SHQ4vn3UCMoXelUBuwZCcQw7lNrMr5mboKWxkf04"
+secret    = "BAAnHK8zEzkmRpFFDpMpMriH35bAER5pwAMLlwDu8_SHQ4vn3UCMoXelUBuwZCcQw7lNrMr5mboKWxkf04"
 paypal_token_url = "https://api-m.sandbox.paypal.com/v1/oauth2/token"
 paypal_charge_url = "https://api-m.sandbox.paypal.com/v2/payments/payment-method-tokens"
 
